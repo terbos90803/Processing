@@ -21,7 +21,7 @@ void draw() {
     r *= 20;
     for (float ri = 0; ri <= r; ri += 1.0) {
       float x = x1 * ri + 50;
-      float y = y1 * ri + 20;
+      float y = y1 * ri + 17;
       point(x, y);
     }
   }
